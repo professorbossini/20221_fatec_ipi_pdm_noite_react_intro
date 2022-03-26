@@ -12,7 +12,7 @@ const App = () => {
                {textoDoRotulo}
             </label>
             <input id="nome" type="text" style={{paddingTop: 8, paddingBottom: 8, borderStyle: 'hidden', outline: 'none', width: '100%', boxSizing: 'border-box'}}/>
-            <button style={obterTextoDoBotao()}>Enviar</button>
+            <button style={estilosBotao}>{obterTextoDoBotao()}</button>
         </div>
     )
 }
